@@ -1,8 +1,7 @@
 # Dependencies
 node_modules/
 server/node_modules/
-package-lock.json
-server/package-lock.json
+# Note: package-lock.json should be committed for reproducible builds
 
 # Build outputs
 dist/
