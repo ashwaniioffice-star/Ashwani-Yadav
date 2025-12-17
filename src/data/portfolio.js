@@ -1,0 +1,26 @@
+export const portfolioData = {
+  personal: {
+    name: "Ashwani Yadav",
+    title: "Senior Product Manager & Technical Leader",
+    location: "San Francisco, CA",
+    email: "ashwani@example.com",
+    phone: "+1 (555) 123-4567",
+    bio: "Transforming complex problems into elegant product solutions.",
+  },
+  social: [
+    { platform: "LinkedIn", url: "https://linkedin.com/in/ashwani" },
+    { platform: "GitHub", url: "https://github.com/ashwani" },
+  ],
+  experience: [
+    { id: 1, title: "Senior Product Manager", company: "Tech Company A", startDate: "2022-01", endDate: "present" },
+  ],
+  projects: [
+    { id: 1, title: "Enterprise Analytics Dashboard", description: "Real-time analytics platform.", tags: ["React", "Node.js"] },
+  ],
+  skills: [
+    { category: "Product Management", items: ["Product Strategy", "User Research"] },
+  ],
+  testimonials: [
+    { author: "Sarah Chen", role: "VP of Engineering", text: "Exceptional product leader." },
+  ],
+}
